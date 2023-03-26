@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    margin: 200px;
+    background: peachpuff;
+}
+
+.body_card{
+    position: relative;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 150px;
+    background: radial-gradient(black, transparent);;
+    border: 1px solid #000000;
+    border-radius: 15px;
+    padding: 100px 0;
+}
+
+.round {
+    width: 100px;
+    height: 100px;
+    background: #ff0000;
+    margin-left: -50px;
+    border-radius: 50%;
+    position: absolute;
+    float: left;
+}
+
+.round_yellow {
+    position: relative;
+    background: #ffff00;
+    opacity: 0.9;
+    left: 60px;
+}
+
+.name_card{
+    position: absolute;
+    bottom: 5px;
+    z-index: 1009;
+    color: black;
+    text-align: center;
+    font-size: 2rem;
+}
+
+
+
